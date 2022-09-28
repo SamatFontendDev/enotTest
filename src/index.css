@@ -1,3 +1,7 @@
+html{
+  height: 100%;
+  font-family: "Actor";
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#root{
+  height: 100%;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+  background: #282828 !important;
+  box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.15), -8px -8px 20px rgba(255, 255, 255, 0.05) !important;
+  border-radius: 25px !important;
+  margin-bottom: 32px !important;
+  border: none !important;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: #fff !important;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-child{
+  margin-bottom: 0 !important;
+}
+.ticker{
+  background: #121212 !important;
+}
+.css-1sautta svg{
+  cursor: pointer !important;
+  position: relative !important;
+  z-index: 4 !important;
+}
+@media screen and (max-width: 810px) {
+  .css-1eieqvb-MuiTypography-root{
+    display: none !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .css-1jgglys{
+    min-width: 300px !important;
+    box-sizing: border-box !important;
+  }
 }
